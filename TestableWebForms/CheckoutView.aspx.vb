@@ -14,7 +14,7 @@ Partial Class _Default
 
     Public ReadOnly Property CustomerName As String Implements ICheckoutView.CustomerName
         Get
-            Throw New NotImplementedException()
+            Return Me.uxCustomerName.Text
         End Get
     End Property
 
